@@ -10,14 +10,35 @@
 
 html {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 16px;
   color: #000;
 }
 
 body {
-  width: 80%;
+  width: 95%;
+  padding: 0.5em;
+  min-width: 570px;
   margin: auto;
+}
+
+main {
+  width: 100%;
+}
+
+hr {
+  margin: 1em 0;
+  border-color: red;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
 }
 
 h1,
@@ -25,27 +46,29 @@ label {
   font-weight: 500;
 }
 
+i {
+  margin-right: 0.25em;
+}
+
+/* header */
 header {
   display: flex;
   margin-bottom: 1em;
 }
 
-header > nav {
+header > .navbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header > nav > ul {
+.navbar > nav > ul {
   display: flex;
   margin-left: 1em;
 }
 
-li {
-  list-style-type: none;
-}
-
+/* links */
 a,
 a:active,
 a:visited {
@@ -57,21 +80,58 @@ a:hover {
   color: red;
 }
 
-hr {
-  margin: 1em 0;
-}
-
-p {
+/* footer */
+.footer-nav-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  line-height: 2em;
 }
 
-footer > nav {
-  display: flex;
-}
-
-footer > nav > ul:first-of-type {
+.footer-nav-container > nav:first-of-type {
   margin-right: 2em;
+}
+
+/* forms */
+form {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 80%;
+}
+
+label {
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+}
+
+label[for="terms"] {
+  margin-left: 0.25em;
+}
+
+input {
+  height: 2rem;
+  padding-left: 0.5em;
+}
+
+input[type="checkbox"] {
+  height: inherit;
+}
+
+.terms {
+  margin-top: 1em;
+}
+
+button {
+  margin: 2em 0;
+  height: 2em;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    width: 80%;
+  }
+
+  form {
+    width: 60%;
+    max-width: 500px;
+  }
 }
