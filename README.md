@@ -1,7 +1,7 @@
 __CDA  – Brief projet – « Maquettes statiques adaptables»__
 
 - [Référentiels de compétences](#référentiels-de-compétences)
-- [Autre(s) certification(s) concernées (DWWM & CDA) :](#autres-certifications-concernées-dwwm--cda-)
+    - [Autre(s) certification(s) concernées :](#autres-certifications-concernées-)
 - [Modalités pédagogiques](#modalités-pédagogiques)
 - [Projet](#projet)
   - [Partie 1](#partie-1)
@@ -9,13 +9,14 @@ __CDA  – Brief projet – « Maquettes statiques adaptables»__
     - [Éléments de charte graphique](#éléments-de-charte-graphique)
     - [Livrables](#livrables)
 # Référentiels de compétences
-`Les compétences professionnelles du référentiel « CDA » couvertes par ce projet sont` :
-• AT1 / CP1 : Maquetter une application (Imiter)
-• AT1 / CP4 : Développer la partie frontend d’une interface utilisateur web (Imiter)
-• AT3 / CP9 : Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement (Imiter)
-# Autre(s) certification(s) concernées (DWWM & CDA) :
-• Gérer un projet en méthodes agiles
-o CP4 : Animer les rituels d’un projet en méthode agile (Imiter)
+Les compétences professionnelles du référentiel « CDA » couvertes par ce projet sont :
+
+> __AT1 / CP1__ : Maquetter une application (Imiter)
+__AT1 / CP4__ : Développer la partie frontend d’une interface utilisateur web (Imiter)
+__AT3 / CP9__ : Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement (Imiter)
+### Autre(s) certification(s) concernées :
+> __Gérer un projet en méthodes agiles__
+__CP4__ : Animer les rituels d’un projet en méthode agile (Imiter)
 # Modalités pédagogiques
 Travail en 3 équipes Scrum dont un Scrum master avec rendus individuels. Les apprenants « CDA » sont les Scrum masters.
 Un Scrum master est un facilitateur et non un supérieur hiérarchique. Il facilite la communication, vérifie la compréhension des besoins et autres tâches à réaliser par toute son équipe. Il veille au respect de l’application de Scrum (auto-organisation, rituels, responsabilisation et participation de chacun). Le Scrum master peut créer un dashboard partagé sur GitHub pour aider à l’identification, à l’organisation et au suivi des tâches.
