@@ -1,34 +1,43 @@
-#CDA  – Brief projet – « Maquettes statiques adaptables»
-## Référentiels de compétences
+__CDA  – Brief projet – « Maquettes statiques adaptables»__
+
+- [Référentiels de compétences](#référentiels-de-compétences)
+- [Autre(s) certification(s) concernées (DWWM & CDA) :](#autres-certifications-concernées-dwwm--cda-)
+- [Modalités pédagogiques](#modalités-pédagogiques)
+- [Projet](#projet)
+  - [Partie 1](#partie-1)
+    - [Environnement technique](#environnement-technique)
+    - [Éléments de charte graphique](#éléments-de-charte-graphique)
+    - [Livrables](#livrables)
+# Référentiels de compétences
 `Les compétences professionnelles du référentiel « CDA » couvertes par ce projet sont` :
 • AT1 / CP1 : Maquetter une application (Imiter)
 • AT1 / CP4 : Développer la partie frontend d’une interface utilisateur web (Imiter)
 • AT3 / CP9 : Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement (Imiter)
-## Autre(s) certification(s) concernées (DWWM & CDA) :
+# Autre(s) certification(s) concernées (DWWM & CDA) :
 • Gérer un projet en méthodes agiles
 o CP4 : Animer les rituels d’un projet en méthode agile (Imiter)
-## Modalités pédagogiques
+# Modalités pédagogiques
 Travail en 3 équipes Scrum dont un Scrum master avec rendus individuels. Les apprenants « CDA » sont les Scrum masters.
 Un Scrum master est un facilitateur et non un supérieur hiérarchique. Il facilite la communication, vérifie la compréhension des besoins et autres tâches à réaliser par toute son équipe. Il veille au respect de l’application de Scrum (auto-organisation, rituels, responsabilisation et participation de chacun). Le Scrum master peut créer un dashboard partagé sur GitHub pour aider à l’identification, à l’organisation et au suivi des tâches.
 Le formateur est le Product Owner et le référent UI/UX de toutes les équipes.
 Ne faire ni plus, ni moins, que ce qui est attendu 😊
-## Projet
+# Projet
 Vous travaillez dans une agence Web sur le MVP (Minimum Viable Product) de la start-up « KISS » qui lance une application Web par abonnement dans le domaine de la gestion de projet. Les premiers utilisateurs de l’application seront anglais.
 Un certain nombre d’écrans (« zoning » et « wireframes ») ont été conçus par l’équipe UI (User Interface) / UX (User eXperience) en collaboration avec le client. Les « zoning » et « wireframes » sont fournis en attachements au brief sur Simplonline, ainsi que le logo et les images le cas échéant.
 C’est maintenant à vous de procéder à la réalisation des maquettes statiques adaptables. En effet, les écrans Web doivent être consultables et lisibles depuis un ordinateur de bureau et un smartphone, une même interface qui s’adapte aux différents périphériques.
 Le vocabulaire utilisé dans les zoning et wireframes doit se retrouver dans les maquettes statiques, le cas échéant du « Lorem ipsum » peut être utilisé. Vous devez également respecter la charte graphique du client, charte qui vous est communiquée ci-après.
 
-### Partie 1
+## Partie 1
 - Pages : Sign in et Sign up
 - Les liens hypertextes entre les deux pages doivent être effectifs, on doit pouvoir naviguer d’une page à l’autre en cliquant sur les liens concernés
-#### Environnement technique
+### Environnement technique
 - Git et GitHub
 - Navigateur avec outils de développement (notamment pour vérifier l’adaptabilité de la maquette à un smartphone)
 - VSCode
 - HTML 5
 - CSS 3 / Flex
 - Aucune librairie sauf pour les polices et icônes
-#### Éléments de charte graphique
+### Éléments de charte graphique
 - Polices de caractères : Google Fonts Roboto en « medium 500 » pour les titres et les libellés de formulaire, en « light 300 » pour tous les autres textes
 - Icônes : Google Fonts Material Icons
 - Fond des écrans en blanc
@@ -39,7 +48,7 @@ Le vocabulaire utilisé dans les zoning et wireframes doit se retrouver dans les
 - Les icônes en rouge
     - En savoir plus sur Google Fonts : https://developers.google.com/fonts/docs/getting_started
 
-#### Livrables
+### Livrables
 - Le projet (dossier) partagé dans un nouveau repository GitHub public
 - Donner le lien vers le repository dans le rendu du brief sur Simplonline
 Modalités d’évaluation
