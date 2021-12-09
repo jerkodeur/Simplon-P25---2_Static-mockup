@@ -3,6 +3,13 @@
 @import "/css/form.css";
 @import "/css/layout.css";
 
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+}
+
 hr {
   margin: 1em 0;
   border-color: red;
