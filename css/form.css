@@ -30,16 +30,16 @@ input {
 }
 
 /* Jobs */
-#search label {
+#search-form label {
   margin-bottom: 0.25em;
 }
 
-#search select {
+#search-form select {
   margin-bottom: 1em;
   padding: 0.25em;
 }
 
-#search input[type="date"] {
+#search-form input[type="date"] {
   width: 40%;
-  height: 1.65em;
+  height: 2em;
 }

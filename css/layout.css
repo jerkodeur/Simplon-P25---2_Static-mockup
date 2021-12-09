@@ -1,3 +1,4 @@
+*,
 ::before,
 ::after {
   padding: 0;
@@ -58,12 +59,17 @@ header > .navbar {
   width: 80%;
 }
 
-#search form {
+#search-form form {
   display: flex;
   flex-direction: column;
 }
 
-#search div {
+#search-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+#search-result header {
   display: flex;
   flex-direction: column;
 }
@@ -73,6 +79,7 @@ header > .navbar {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 1em;
 }
 
 .article-layout > img {
@@ -81,6 +88,16 @@ header > .navbar {
 
 .article-layout > p {
   margin-top: 1em;
+}
+
+#search-result {
+  margin-top: 1.5em;
+}
+#search-result p {
+  margin-bottom: 1em;
+}
+#search-result h4 {
+  margin-bottom: 0.25em;
 }
 
 /* footer */
@@ -110,21 +127,21 @@ footer p {
     max-width: 500px;
   }
 
-  #search form {
+  #search-form form {
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
   }
 
-  #search div {
+  #search-form div {
     width: 100%;
   }
 
-  #search input[type="date"] {
+  #search-form input[type="date"] {
     width: 100%;
   }
 
-  #search select {
+  #search-form select {
     margin-bottom: 1em;
     margin-right: 1em;
   }
