@@ -1,0 +1,89 @@
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+}
+
+body {
+  width: 95%;
+  padding: 0.5em;
+  min-width: 600px;
+  margin: auto;
+}
+
+main {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 0.25em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+header > .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar > nav > ul {
+  display: flex;
+  margin-left: 1em;
+}
+
+form {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 80%;
+}
+
+/* article */
+.article-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-layout > img {
+  width: 100%;
+}
+
+.article-layout > p {
+  margin-top: 1em;
+}
+
+/* footer */
+.footer-nav-container {
+  display: flex;
+  line-height: 2em;
+}
+
+.footer-nav-container > nav:first-of-type {
+  margin-right: 2em;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
