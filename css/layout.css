@@ -21,11 +21,6 @@ h2 {
   margin-bottom: 0.25em;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 /* header */
 header {
   display: flex;
@@ -45,7 +40,7 @@ header > .navbar {
 }
 
 /* forms */
-.log > form {
+form.log {
   display: flex;
   margin: auto;
   flex-direction: column;
@@ -115,7 +110,7 @@ footer p {
     width: 80%;
   }
 
-  .log form {
+  form.log {
     width: 60%;
     max-width: 500px;
   }
@@ -158,8 +153,8 @@ footer p {
 
   .article-layout > img {
     width: 30%;
-    min-width: 300px;
     height: 30%;
+    min-width: 300px;
   }
 
   .article-layout > p {

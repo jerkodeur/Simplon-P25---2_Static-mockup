@@ -4,18 +4,17 @@ __CDA  – Brief projet – « Maquettes statiques adaptables»__
     - [Autre(s) certification(s) concernées :](#autres-certifications-concernées-)
 - [Modalités pédagogiques](#modalités-pédagogiques)
 - [Projet](#projet)
-  - [Partie 1](#partie-1)
     - [Environnement technique](#environnement-technique)
     - [Éléments de charte graphique](#éléments-de-charte-graphique)
     - [Livrables](#livrables)
 # Référentiels de compétences
 Les compétences professionnelles du référentiel « CDA » couvertes par ce projet sont :
 
-> __AT1 / CP1__ : Maquetter une application (Imiter)  
-__AT1 / CP4__ : Développer la partie frontend d’une interface utilisateur web (Imiter)  
-__AT3 / CP9__ : Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement (Imiter)  
+> __AT1 / CP1__ : Maquetter une application (Imiter)
+__AT1 / CP4__ : Développer la partie frontend d’une interface utilisateur web (Imiter)
+__AT3 / CP9__ : Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement (Imiter)
 ### Autre(s) certification(s) concernées :
-> __Gérer un projet en méthodes agiles__  
+> __Gérer un projet en méthodes agiles__
 __CP4__ : Animer les rituels d’un projet en méthode agile (Imiter)
 # Modalités pédagogiques
 Travail en 3 équipes Scrum dont un Scrum master avec rendus individuels. Les apprenants « CDA » sont les Scrum masters.
@@ -28,9 +27,6 @@ Un certain nombre d’écrans (« zoning » et « wireframes ») ont été conç
 C’est maintenant à vous de procéder à la réalisation des maquettes statiques adaptables. En effet, les écrans Web doivent être consultables et lisibles depuis un ordinateur de bureau et un smartphone, une même interface qui s’adapte aux différents périphériques.
 Le vocabulaire utilisé dans les zoning et wireframes doit se retrouver dans les maquettes statiques, le cas échéant du « Lorem ipsum » peut être utilisé. Vous devez également respecter la charte graphique du client, charte qui vous est communiquée ci-après.
 
-## Partie 1
-- Pages : Sign in et Sign up
-- Les liens hypertextes entre les deux pages doivent être effectifs, on doit pouvoir naviguer d’une page à l’autre en cliquant sur les liens concernés
 ### Environnement technique
 - Git et GitHub
 - Navigateur avec outils de développement (notamment pour vérifier l’adaptabilité de la maquette à un smartphone)
