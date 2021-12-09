@@ -81,6 +81,14 @@ a:hover {
   color: red;
 }
 
+.hyphen-separator::after {
+  content: " -\00a0";
+}
+
+.pipe-separator::after {
+  content: " |\00a0";
+}
+
 /* footer */
 .footer-nav-container {
   display: flex;
