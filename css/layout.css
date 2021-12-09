@@ -50,11 +50,22 @@ header > .navbar {
   margin-left: 1em;
 }
 
-form {
+/* forms */
+.log > form {
   display: flex;
   margin: auto;
   flex-direction: column;
   width: 80%;
+}
+
+#search form {
+  display: flex;
+  flex-direction: column;
+}
+
+#search div {
+  display: flex;
+  flex-direction: column;
 }
 
 /* article */
@@ -88,14 +99,34 @@ footer p {
   align-items: center;
 }
 
+/* Media queries */
 @media screen and (min-width: 900px) {
   body {
     width: 80%;
   }
 
-  form {
+  .log form {
     width: 60%;
     max-width: 500px;
+  }
+
+  #search form {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #search div {
+    width: 100%;
+  }
+
+  #search input[type="date"] {
+    width: 100%;
+  }
+
+  #search select {
+    margin-bottom: 1em;
+    margin-right: 1em;
   }
 }
 
