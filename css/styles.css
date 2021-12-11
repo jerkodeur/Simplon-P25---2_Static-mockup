@@ -1,7 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,italic,500,500italic);
 
 @import "/css/form.css";
 @import "/css/layout.css";
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 html {
   font-family: "Roboto", sans-serif;
@@ -50,4 +58,36 @@ a:hover {
 
 .pipe-separator::after {
   content: " |\00a0";
+}
+
+#plans p {
+  font-weight: bold;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border: 1pt solid #000;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background-color: rgb(211, 201, 201);
+}
+
+tr th:first-child,
+tr td:first-child {
+  width: 75%;
+  text-align: left;
+  padding-left: 0.5em;
+}
+
+tbody tr:nth-of-type(2n + 1) {
+  background-color: rgb(236, 232, 232);
+}
+
+td,
+th {
+  border-bottom: 1px solid #000;
+  text-align: center;
 }

@@ -43,3 +43,8 @@ input {
   width: 40%;
   height: 2em;
 }
+
+/* Pricing */
+#plans footer button {
+  padding: 0.25em;
+}
