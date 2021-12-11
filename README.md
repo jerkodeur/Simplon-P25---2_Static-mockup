@@ -10,9 +10,9 @@ __CDA  – Brief projet – « Maquettes statiques adaptables»__
 # Référentiels de compétences
 Les compétences professionnelles du référentiel « CDA » couvertes par ce projet sont :
 
-> __AT1 / CP1__ : Maquetter une application (Imiter)
-__AT1 / CP4__ : Développer la partie frontend d’une interface utilisateur web (Imiter)
-__AT3 / CP9__ : Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement (Imiter)
+> __AT1 / CP1__ : Maquetter une application (Imiter)  
+__AT1 / CP4__ : Développer la partie frontend d’une interface utilisateur web (Imiter)  
+__AT3 / CP9__ : Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement (Imiter)  
 ### Autre(s) certification(s) concernées :
 > __Gérer un projet en méthodes agiles__
 __CP4__ : Animer les rituels d’un projet en méthode agile (Imiter)
